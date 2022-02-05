@@ -1,2 +1,2 @@
-# think_like_a_programmer
+# think like a programmer
 solution to the "think like a programmer book" in Python.
