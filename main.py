@@ -1,4 +1,4 @@
-#this is a solution in pyhton for LUHN CHECKSUM VALIDATION in Think like a programmer book!
+#this is a solution in pyhton for LUHN CHECKSUM VALIDATION in Think like a programmer book.
 
 #Taking an input from a user and turning it into a list.
 inputcheck = True
@@ -11,7 +11,7 @@ while inputcheck:
 
 divider = list(number.strip())
 
-#duplicate every other number in the input
+#duplicate every other number in the input.
 values = []
 for i in divider:
     if divider.index(i) == 0:
@@ -25,13 +25,13 @@ for i in divider:
         else:
             values.append(str(dup))
 
-#sumup the result
+#sumup the result.
 final_number = 0
 for numbers in values:
     final_number += int(numbers)
 
 
-#printing the result
+#printing the result.
 if final_number % 10 == 0:
     print(f"THE RESULT WAS {final_number}.\nIT DID PASSED THE TEST!")
 else:
