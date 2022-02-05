@@ -31,7 +31,7 @@ for numbers in values:
     final_number += int(numbers)
 
 
-#printing the result
+#printing the result.
 if final_number % 10 == 0:
     print(f"THE RESULT WAS {final_number}.\nIT DID PASSED THE TEST!")
 else:
