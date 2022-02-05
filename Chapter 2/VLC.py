@@ -1,4 +1,4 @@
-#this is a solution in pyhton for LUHN CHECKSUM VALIDATION in Think like a programmer book!
+#this is a solution in pyhton for LUHN CHECKSUM VALIDATION in Think like a programmer book.
 
 #Taking an input from a user and turning it into a list.
 inputcheck = True
